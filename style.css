@@ -1,0 +1,129 @@
+:root {
+  --bg-dark: #090a0f;
+  --bg-darker: #050608;
+  --neon-cyan: #00f3ff;
+  --neon-pink: #ff0055;
+  --neon-yellow: #fcee0a;
+  --text-main: #e0e6ed;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Share Tech Mono', monospace;
+  background-image: 
+    linear-gradient(rgba(0, 243, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 243, 255, 0.04) 1px, transparent 1px);
+  background-size: 35px 35px;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.bg-darker { background-color: var(--bg-darker); }
+.text-neon-cyan { color: var(--neon-cyan); }
+.text-neon-pink { color: var(--neon-pink); }
+.text-neon-yellow { color: var(--neon-yellow); }
+
+/* Navbar */
+.cyber-nav {
+  background: rgba(9, 10, 15, 0.9);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--neon-cyan);
+}
+.cyber-logo {
+  color: var(--neon-cyan) !important;
+  font-weight: 900;
+  text-shadow: 0 0 8px rgba(0, 243, 255, 0.6);
+}
+.nav-link:hover {
+  color: var(--neon-pink) !important;
+  text-shadow: 0 0 8px var(--neon-pink);
+}
+
+/* Hero */
+.hero-section {
+  min-height: 100vh;
+  padding-top: 80px;
+}
+.cyber-badge {
+  display: inline-block;
+  border: 1px solid var(--neon-yellow);
+  color: var(--neon-yellow);
+  padding: 4px 12px;
+  font-size: 0.85rem;
+}
+
+/* Glitch Effect */
+.glitch-text {
+  color: #fff;
+  text-shadow: 2px 2px var(--neon-pink), -2px -2px var(--neon-cyan);
+}
+
+/* Cards Cyberpunk */
+.cyber-card {
+  background: rgba(16, 20, 31, 0.85);
+  border: 1px solid rgba(0, 243, 255, 0.3);
+  border-left: 4px solid var(--neon-cyan);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cyber-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.25);
+  border-color: var(--neon-pink);
+}
+
+/* Botones */
+.btn-cyber-cyan, .btn-cyber-pink {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  border-radius: 0;
+  padding: 10px 22px;
+  transition: all 0.25s;
+}
+.btn-cyber-cyan {
+  border: 1px solid var(--neon-cyan);
+  color: var(--neon-cyan);
+  background: transparent;
+}
+.btn-cyber-cyan:hover {
+  background: var(--neon-cyan);
+  color: #000;
+  box-shadow: 0 0 15px var(--neon-cyan);
+}
+.btn-cyber-pink {
+  border: 1px solid var(--neon-pink);
+  color: #fff;
+  background: var(--neon-pink);
+}
+.btn-cyber-pink:hover {
+  background: transparent;
+  color: var(--neon-pink);
+  box-shadow: 0 0 15px var(--neon-pink);
+}
+
+/* Progress Bars & Inputs */
+.cyber-progress {
+  height: 8px;
+  background-color: #1a1f2e;
+  border-radius: 0;
+}
+.bg-cyan { background-color: var(--neon-cyan); }
+.bg-pink { background-color: var(--neon-pink); }
+.bg-yellow { background-color: var(--neon-yellow); }
+
+.cyber-input {
+  background-color: #0d111a;
+  border: 1px solid #2b354f;
+  color: #fff;
+  border-radius: 0;
+}
+.cyber-input:focus {
+  background-color: #0d111a;
+  color: #fff;
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 8px rgba(0, 243, 255, 0.4);
+}

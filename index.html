@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Cyberpunk | IA & Desarrollo</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts Cyberpunk -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top cyber-nav">
+    <div class="container">
+      <a class="navbar-brand cyber-logo" href="#">&lt;DEV_AI // 2026&gt;</a>
+      <button class="navbar-toggler border-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link" href="#inicio">[01] INICIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">[02] PERFIL</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">[03] PROYECTOS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">[04] CONEXIÓN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="inicio" class="hero-section d-flex align-items-center text-center">
+    <div class="container">
+      <p class="cyber-badge mb-3">SISTEMA EN LÍNEA // ESTADO: ACTIVO</p>
+      <h1 class="display-3 fw-bold glitch-text" data-text="Jose Cuevas">Jose Cuevas</h1>
+      <h3 class="mt-3 text-neon-cyan">&gt; <span id="typewriter"></span><span class="cursor">_</span></h3>
+      <p class="lead mt-4 mx-auto text-secondary" style="max-width: 650px;">
+        Desarrollador enfocado en Inteligencia Artificial, Ciberseguridad y soluciones tecnológicas de próxima generación.
+      </p>
+      <div class="mt-4 d-flex justify-content-center gap-3 flex-wrap">
+        <a href="#proyectos" class="btn btn-cyber-pink">EXPLORAR PROYECTOS</a>
+        <a href="#contacto" class="btn btn-cyber-cyan">INICIAR CONTACTO</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sobre Mí & Habilidades -->
+  <section id="sobre-mi" class="py-5">
+    <div class="container py-4">
+      <h2 class="section-title mb-4"><span>// 02.</span> PERFIL_Y_SKILLS</h2>
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <div class="cyber-card p-4">
+            <h4 class="text-neon-pink mb-3"><i class="bi bi-cpu"></i> BIO_DATA</h4>
+            <p>
+              Estudiante y entusiasta de la <strong>Inteligencia Artificial</strong> y el desarrollo de software. Apasionado por construir sistemas inteligentes, automatizar procesos y diseñar interfaces con estética futurista.
+            </p>
+            <ul class="list-unstyled mt-3 mb-0">
+              <li><span class="text-neon-cyan">&gt; Ubicación:</span> Santo Domingo, RD</li>
+              <li><span class="text-neon-cyan">&gt; Especialidad:</span> IA, Desarrollo Web & Seguridad</li>
+              <li><span class="text-neon-cyan">&gt; Idiomas:</span> Español (Nativo) / Inglés (Avanzado)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="cyber-card p-4">
+            <h4 class="text-neon-cyan mb-3"><i class="bi bi-terminal"></i> STACK_TECNOLÓGICO</h4>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between"><span>HTML5 / CSS3 / Bootstrap</span><span>90%</span></div>
+              <div class="progress cyber-progress"><div class="progress-bar bg-cyan" style="width: 90%"></div></div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between"><span>JavaScript (ES6+)</span><span>80%</span></div>
+              <div class="progress cyber-progress"><div class="progress-bar bg-pink" style="width: 80%"></div></div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between"><span>Python & Fundamentos de IA</span><span>75%</span></div>
+              <div class="progress cyber-progress"><div class="progress-bar bg-yellow" style="width: 75%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="py-5 bg-darker">
+    <div class="container py-4">
+      <h2 class="section-title mb-4"><span>// 03.</span> PROYECTOS_DESTACADOS</h2>
+      <div class="row g-4">
+        <!-- Proyecto 1 -->
+        <div class="col-md-4">
+          <div class="cyber-card h-100 p-4 d-flex flex-column justify-content-between">
+            <div>
+              <span class="badge bg-danger mb-2">IA // NLP</span>
+              <h4 class="text-neon-cyan">Asistente Neural v1.0</h4>
+              <p class="small text-light opacity-75">
+                Chatbot entrenado para responder consultas técnicas y automatizar flujos de estudio utilizando procesamiento de lenguaje natural.
+              </p>
+            </div>
+            <div class="mt-3">
+              <a href="#" class="btn btn-sm btn-cyber-cyan w-100">VER CÓDIGO <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-md-4">
+          <div class="cyber-card h-100 p-4 d-flex flex-column justify-content-between">
+            <div>
+              <span class="badge bg-info text-dark mb-2">WEB // UI</span>
+              <h4 class="text-neon-pink">Portafolio Cyberpunk</h4>
+              <p class="small text-light opacity-75">
+                Interfaz web responsiva construida con HTML, CSS, JavaScript y Bootstrap 5, desplegada en GitHub Pages.
+              </p>
+            </div>
+            <div class="mt-3">
+              <a href="#" class="btn btn-sm btn-cyber-pink w-100">VER DEMO <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-md-4">
+          <div class="cyber-card h-100 p-4 d-flex flex-column justify-content-between">
+            <div>
+              <span class="badge bg-warning text-dark mb-2">DATA // SEC</span>
+              <h4 class="text-neon-yellow">Analizador de Riesgos</h4>
+              <p class="small text-light opacity-75">
+                Herramienta de evaluación de protocolos de seguridad y detección de anomalías en plataformas digitales.
+              </p>
+            </div>
+            <div class="mt-3">
+              <a href="#" class="btn btn-sm btn-cyber-cyan w-100">VER CÓDIGO <i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-5">
+    <div class="container py-4">
+      <h2 class="section-title mb-4"><span>// 04.</span> ESTABLECER_CONEXIÓN</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <form id="contactForm" class="cyber-card p-4">
+            <div class="mb-3">
+              <label class="form-label text-neon-cyan">IDENTIFICADOR (NOMBRE)</label>
+              <input type="text" class="form-control cyber-input" required placeholder="Ej. Alex Mercer">
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-neon-cyan">FRECUENCIA (CORREO)</label>
+              <input type="email" class="form-control cyber-input" required placeholder="usuario@red.com">
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-neon-cyan">TRANSMISIÓN (MENSAJE)</label>
+              <textarea class="form-control cyber-input" rows="3" required placeholder="Escribe tu mensaje..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-cyber-pink w-100">ENVIAR TRANSMISIÓN</button>
+            <div id="formAlert" class="alert alert-info mt-3 d-none">
+              [OK] Transmisión recibida correctamente en el servidor.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center border-top border-secondary">
+    <div class="container">
+      <p class="mb-1 small">© 2026 // DESARROLLADO CON HTML, CSS, JS & BOOTSTRAP</p>
+      <div class="d-flex justify-content-center gap-3 fs-4">
+        <a href="#" class="text-neon-cyan"><i class="bi bi-github"></i></a>
+        <a href="#" class="text-neon-pink"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS & Custom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
