@@ -2,7 +2,7 @@
 
 Proyecto desarrollado como primera práctica para la asignatura de **Inteligencia Artificial**. Consiste en un portafolio web responsivo con estética **Cyberpunk** construido desde cero utilizando tecnologías web estándar y desplegado en la nube mediante **GitHub Pages**.
 
-🔗 **Demo en vivo (GitHub Pages):** `https://TU-USUARIO.github.io/portafolio-cyberpunk/`
+🔗 **Demo en vivo (GitHub Pages):** [https://kratostechrd.github.io/portafolio-cyberpunk/](https://kratostechrd.github.io/portafolio-cyberpunk/)
 
 ---
 
@@ -21,4 +21,4 @@ Proyecto desarrollado como primera práctica para la asignatura de **Inteligenci
 ## 🚀 Cómo ejecutarlo localmente
 1. Clona este repositorio:
    ```bash
-   git clone [https://github.com/TU-USUARIO/portafolio-cyberpunk.git](https://github.com/TU-USUARIO/portafolio-cyberpunk.git)
+   git clone [https://github.com/KratosTechRD/portafolio-cyberpunk.git](https://github.com/KratosTechRD/portafolio-cyberpunk.git)
