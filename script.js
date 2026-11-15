@@ -1,8 +1,8 @@
-// Efecto Typewriter (Máquina de escribir)
+// Efecto Typewriter (Máquina de escribir) personalizado
 const phrases = [
-  "Estudiante de Inteligencia Artificial",
-  "Desarrollador Web Frontend",
-  "Entusiasta de Ciberseguridad & Datos"
+  "Estudiante de Ingeniería de Sistemas",
+  "Soporte Técnico & Ciberseguridad",
+  "Entusiasta de Inteligencia Artificial"
 ];
 
 let phraseIndex = 0;
@@ -21,10 +21,10 @@ function typeEffect() {
     charIndex++;
   }
 
-  let speed = isDeleting ? 50 : 100;
+  let speed = isDeleting ? 50 : 95;
 
   if (!isDeleting && charIndex === currentPhrase.length) {
-    speed = 1800; // Pausa al terminar la frase
+    speed = 1800;
     isDeleting = true;
   } else if (isDeleting && charIndex === 0) {
     isDeleting = false;
@@ -36,20 +36,3 @@ function typeEffect() {
 }
 
 document.addEventListener("DOMContentLoaded", typeEffect);
-
-// Manejo del formulario de contacto
-document.getElementById("contactForm").addEventListener("submit", function (e) {
-  e.preventDefault();
-  const alertBox = document.getElementById("formAlert");
-  alertBox.classList.remove("d-none");
-  this.reset();
-  setTimeout(() => alertBox.classList.add("d-none"), 4000);
-});
-/* Modales Cyberpunk */
-.cyber-modal {
-  background-color: #0d111a;
-  color: var(--text-main);
-  border: 1px solid var(--neon-cyan);
-  box-shadow: 0 0 25px rgba(0, 243, 255, 0.3);
-  border-radius: 0;
-}
