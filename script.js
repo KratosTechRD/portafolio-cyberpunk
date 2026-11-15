@@ -45,3 +45,11 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   this.reset();
   setTimeout(() => alertBox.classList.add("d-none"), 4000);
 });
+/* Modales Cyberpunk */
+.cyber-modal {
+  background-color: #0d111a;
+  color: var(--text-main);
+  border: 1px solid var(--neon-cyan);
+  box-shadow: 0 0 25px rgba(0, 243, 255, 0.3);
+  border-radius: 0;
+}
